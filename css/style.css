@@ -1,0 +1,117 @@
+.textblan{
+    color: white !important;
+    text-decoration: none !important;
+}
+.textgri{
+    color: gray !important;
+    text-decoration: none !important;
+}
+.textver{
+    color: green !important;
+    text-decoration: none !important;
+}
+.contenedor{
+    position: relative ;
+    display: flex;
+    text-align: right ;
+}
+.textofoto{
+    float: left !important;
+    color: white;
+    position: absolute;
+    align-content: flex-end;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, -65%);
+}
+.cardz{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.imadivi{
+    display: flex;
+    align-content: flex-end;
+    
+}
+.izq{
+    background-image: url(https://www.adonde-y-cuando.es/site/images/illustration/honolulu-oahu_489.jpg);
+    background-image: center;
+    background-image: cover;
+    width: 50%;
+    height: 100vh;
+    border: 2px solid white;
+}
+.der{
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(46, 48, 51);
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+    }
+
+.imadivi{
+    display: flex;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+    
+}
+.nomap{
+    display: flex;
+}
+.nom { 
+    
+    padding: 5px;
+   
+}
+.ap { 
+    
+    padding: 5px;
+   
+}
+
+.titul { 
+     
+    
+}
+.botonform { 
+    
+}
+.navder{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: normal;
+  align-content: stretch;
+  position: relative;
+  right: 100px;
+}
+.navderit{
+  padding: 10px;
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+.navfoot{
+    background-color: rgb(37, 70, 92);
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    height: 2cm;
+    display: flex;
+    justify-content: space-around;
+
+}
+.punteado{
+    border-bottom:2px dotted #000000;
+}
