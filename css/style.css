@@ -153,8 +153,9 @@
     margin: 5px;
 }
 .corti{
-    width: 330px !important;
-    margin: 5px !important;
+    width: 330px ;
+    margin: 5px ;
+    height: 30px;
 }
 .centrar{
     display: flex;
