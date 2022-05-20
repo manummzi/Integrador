@@ -115,4 +115,49 @@
 .punteado{
     border-bottom:2px dotted #000000;
 }
-
+#cuadraditos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.cuadradoazul{
+    padding: 10px;
+    border-style: solid;
+    border-color: blue;
+    margin: 5px;
+    height: 220px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.alinearcentro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ticketform{
+    width: 690px;
+    padding: 5px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.largui{
+    width: 670px;
+    margin: 5px;
+}
+.corti{
+    width: 330px !important;
+    margin: 5px !important;
+}
+.centrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
