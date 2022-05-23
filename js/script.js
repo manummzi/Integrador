@@ -1,4 +1,3 @@
-console.log("jelou");
 
 function calcularPrecio (){
     let resultado1 = document.getElementById("valorcantidad").value;
@@ -15,9 +14,9 @@ function calcularPrecio (){
             break;
         case "2":
             document.getElementById("elresult").innerHTML = (resultado1 * 200 * 0.85);
-            break;        
-  
+            break;  
+}   
 }
-
-   
+function calcularPrecio2 (){
+    document.getElementById("elresult").innerHTML = " " ;
 }
