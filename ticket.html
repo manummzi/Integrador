@@ -70,16 +70,16 @@
       </select>
       <div class="totpag"><h6>Total a Pagar: $   </h6><h6 id="elresult"></h6></div>
       <button onclick=calcularPrecio2() type="reset" class="cortibot">Borrar</button>
-      <button class="cortibot">Resumen</button>
+      <button type="button" class="cortibot" onclick=mostrarResumen() >Resumen</button>
 
       </div>
 
       
     </form>
-   <!-- <div class="divResumen">
-      <button>X</button>
+    <div class="divResumen" id="divResumen" >
+      <button onclick=ocultarResumen()>X</button>
       Resumen
-    </div> -->
+    </div>
     <br>
 
 </body>

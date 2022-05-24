@@ -20,3 +20,10 @@ function calcularPrecio (){
 function calcularPrecio2 (){
     document.getElementById("elresult").innerHTML = " " ;
 }
+function mostrarResumen(){
+
+    document.getElementById("divResumen").style.display = "block" ;
+}
+function ocultarResumen(){
+    document.getElementById("divResumen").style.display = "none" ;
+}
