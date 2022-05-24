@@ -226,3 +226,12 @@ input::-webkit-inner-spin-button {
     background-color: rgb(164, 224, 246);
     
 }
+.divResumen{
+    background-color: aqua;
+    position: absolute; 
+    height: 50vh;
+    width: 25vw;
+    left: 39%; 
+    top: 50%;
+    margin: -25px 0 0 -25px;
+}
