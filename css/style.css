@@ -58,10 +58,6 @@ input::-webkit-inner-spin-button {
     padding: 10px;
     border: 2px solid white;
     }
-
-.imadivi{
-    display: flex;
-}
 .form{
   display: flex;
   flex-direction: column;
@@ -227,7 +223,7 @@ input::-webkit-inner-spin-button {
     
 }
 .divResumen{
-    background-color: aqua;
+    background-color: rgb(232, 228, 36);
     position: absolute; 
     height: 50vh;
     width: 25vw;
@@ -236,4 +232,11 @@ input::-webkit-inner-spin-button {
     margin: -25px 0 0 -25px;
     display: none;
 }
-
+.container-flu{
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+}

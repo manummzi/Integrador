@@ -10,8 +10,8 @@
     <script src="js/script.js"></script>
 </head>
 <body>
-    <header><nav class="navbar navbar-light bg-light" style="background-color: rgb(51, 50, 50)!important;">
-        <div class="container-fluid">
+    <header ><nav class="navbar navbar-light bg-light" style="background-color: rgb(51, 50, 50)!important; flex-wrap: nowrap!important;">
+        <div class="container-fluid" >
           <a class="navbar-brand" href="index.html" style="color: white;">
             <img src=codoacodo.png alt="" width="180" height="96" class="d-inline-block align-text-center">
             Conf Bs As
@@ -77,11 +77,14 @@
       
     </form>
     <div class="divResumen" id="divResumen" style="border: solid blue;" >
-      <button onclick=ocultarResumen() style="float: right; margin: 3px;">X</button>
+      <div class="container-flu">
+      <button onclick=ocultarResumen()>X</button>
+      <div>Resumen de compra</div>
       <div id="resumCant">Cantidad de entradas:</div>
       <div id="resumCat">Categoría:</div>
       <div id="resumTot">Total:</div>
-      Resumen
+      <button type="button" class="cortibot">Comprar</button>
+      </div>
     </div>
     <br>
 
